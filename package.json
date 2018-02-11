@@ -1,0 +1,23 @@
+{
+  "name": "gharmony",
+  "version": "1.0.0",
+  "description": "Really this is just a joke that went too far. gHarmony is a dating website in which everyone eligible is paired with me, the author. Everyone who isn't \"eligible\" gets no results. I'm an awful person.",
+  "main": "core.js",
+  "scripts": {
+    "uglify": "uglifyjs core.js --compress --mangle --output core.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregtyler/gharmony.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregtyler/gharmony/issues"
+  },
+  "homepage": "https://github.com/gregtyler/gharmony#readme",
+  "dependencies": {
+    "uglify-js": "^3.3.10"
+  }
+}
